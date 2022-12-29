@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BPV_21.206.0024_Site", "http://localhost/BPV_21.206.0024_Site", "{D4B362E7-4A19-4CC0-9267-312B9A2DBA28}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{d76f05de-b28b-4d62-8cca-e4b13735dc6f}|DCAABusProcVault.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/BPV_21.206.0024_Site"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Accumatica\BPV_21.206.0024_Site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BPV_21.206.0024_Site\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BPV_21.206.0024_Site"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Accumatica\BPV_21.206.0024_Site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BPV_21.206.0024_Site\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\Accumatica\BPV_21.206.0024_Site\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCAABusinessProcessVault", "..\..\DCAABusinessProcessVault-master\22R1\src\DCAABusinessProcessVault.csproj", "{D76F05DE-B28B-4D62-8CCA-E4B13735DC6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4B362E7-4A19-4CC0-9267-312B9A2DBA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B362E7-4A19-4CC0-9267-312B9A2DBA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B362E7-4A19-4CC0-9267-312B9A2DBA28}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B362E7-4A19-4CC0-9267-312B9A2DBA28}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D76F05DE-B28B-4D62-8CCA-E4B13735DC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76F05DE-B28B-4D62-8CCA-E4B13735DC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76F05DE-B28B-4D62-8CCA-E4B13735DC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76F05DE-B28B-4D62-8CCA-E4B13735DC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {512D9340-4EE1-41DA-B10B-0C094A02C188}
+	EndGlobalSection
+EndGlobal
